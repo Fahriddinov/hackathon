@@ -1,7 +1,7 @@
 document.getElementById('fileInput').addEventListener('change', function(event) {
     const file = event.target.files[0];
     const previewContainer = document.getElementById('previewContainer');
-    previewContainer.innerHTML = '';
+    previewContainer.innerHTML = ''; 
 
     if (file) {
         const url = URL.createObjectURL(file);
